@@ -27,5 +27,15 @@
     <div class="glow-text">
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">TEKE</a>
     </div>
+
+    <!-- Gizli düğme -->
+    <button id="hiddenButton" style="display: none;"></button>
+
+    <script>
+        // Gizli düğmeye tıklandığında /teke adresine yönlendirme yap
+        document.getElementById('hiddenButton').addEventListener('click', function() {
+            window.location.href = '/teke';
+        });
+    </script>
 </body>
 </html>
