@@ -1,0 +1,31 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:3rem;
+    margin: 0;
+    text-align: center;
+}
+img{
+    width: 25rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#bl{
+    margin-top: 1rem;
+    width: 3rem;
+    border-radius: 100%;
+}
